@@ -27,21 +27,32 @@ Red | As you play with the ratio of ingredients, the `Total Left to Apply` for e
 
 ![image](https://user-images.githubusercontent.com/59991595/128973474-c04a65f7-cf12-471a-bb49-237e4e2dcad1.png)
 
-First set how many `Acres` you want to buy ingredients for in column `B4`. Next use your Logan Labs report and fill in `B1` to `B3` and `G` through `Q` on rows `7` and `8`.
+First set how many `Acres` you want to buy ingredients for in column `B4`. Next
+use your Logan Labs report and fill in `B1` to `B3` and `G` through `Q` on rows
+`7` and `8`.
 
 #### About the element rows
 
 ![image](https://user-images.githubusercontent.com/59991595/128973664-e3939320-3177-4d4f-a8d1-15c28c7e3a83.png)
 
-Row `9`: `Target`, is what Steve Solomon thinks you should be targetting for your soil conditions.
+Row `9`: `Target`, is what Steve Solomon thinks you should be targeting for your
+soil conditions.
 
-Row `10`: `Deficit`, is how much you're missing from that target in your current soil; negative means you have an excess of that element.
+Row `10`: `Deficit`, is how much you're missing from that target in your current
+soil; negative means you have an excess of that element.
 
-Row `11`: `Apply`, is basically the same as `Deficit`, but it factors in the maximum amounts Steve Solomon suggests you add each year, so it might have you adding less then your deficit so that you slowly fix your soil over several seasons.
+Row `11`: `Apply`, is basically the same as `Deficit`, but it factors in the
+maximum amounts Steve Solomon suggests you add each year, so it might have you
+adding less then your deficit so that you slowly fix your soil over several
+seasons.
 
-Row `12`: `Total Applied`, shows how much of each element you're adding with the mix of ingredients you've selected (see next section).
+Row `12`: `Total Applied`, shows how much of each element you're adding with the
+mix of ingredients you've selected (see next section).
 
-Row `13`: `Total Left to Apply` is how much more of that element you need to mix into your ingredients before you hit what Steve Solomon recommends. Each element in row 13 will turn green when you get that element close to what Steve suggests, and will turn Red if you get too much.
+Row `13`: `Total Left to Apply` is how much more of that element you need to mix
+into your ingredients before you hit what Steve Solomon recommends. Each element
+in row 13 will turn green when you get that element close to what Steve
+suggests, and will turn Red if you get too much.
 
 #### About the ingredients section of the spreadsheet
 
@@ -49,25 +60,56 @@ Row `13`: `Total Left to Apply` is how much more of that element you need to mix
 
 Column `A` on the far left is the name of each ingredient.
 
-Column `B` will be how many pounds of each ingredient you need to buy in total for your acrage.
+Column `B` will be how many pounds of each ingredient you need to buy in total
+for your acreage.
 
-Column `C` is where you will adjust how much of each ingredient to add (more on this in next section).
+Column `C` is where you will adjust how much of each ingredient to add (more on
+this in next section).
 
-Column `D` is how many ounces of each ingredient you need to mix to mix up a batch to cover 100 square feet.
+Column `D` is how many ounces of each ingredient you need to mix to mix up a
+batch to cover 100 square feet.
 
-Columns `E` through `Q` are the percentage of that element that ingredient contains. The chemical composition of each ingredient can vary by brand, region, and possibly other things, so you might want to check your source and adjust the exact percentages based off what exactly you plan on using. As an example Row `19` is `Blood Meal`, and in the current spreadsheet based off the brand of bloodmeal I had available, it contained `13%` Nigrogen (N) [Cell `E19`] and 0.5% Phosphorus (P) [Cell `H19`]
+Columns `E` through `Q` are the percentage of that element that ingredient
+contains. The chemical composition of each ingredient can vary by brand, region,
+and possibly other things, so you might want to check your source and adjust the
+exact percentages based off what exactly you plan on using. As an example Row
+`19` is `Blood Meal`, and in the current spreadsheet based off the brand of
+bloodmeal I had available, it contained `13%` Nitrogen (N) [Cell `E19`] and 0.5%
+Phosphorus (P) [Cell `H19`]
 
 #### Creating a mix
 
-I'd recommend zeroing out the yellow values in column `C` which are part of the example that comes with the spreadsheet, but will almost certainly not be useful for you. Be careful not to touch the white values, such as for `Borax` (`C39`) as those only have one option so the spreadsheet can give you exactly what you need for that ingredient. After clearing out the values you can look at what you need up on row `13` (`Total Left To Apply`) and find an ingredient you want to try to use to address that deficiency, and start plugging in numbers for that ingredient. As an example, let's say you see you need Calcium in cell `I13` you might decide to use some `Calphos` from Row `31` to address that. Try setting cell `C31` to `100`. Was that enough? If not, maybe try `200`, if it was too much maybe back off to `75`. `Calphos` also brings with it Phosphorus, so at some point you might end up with too much Phosphorus, but not enough Calcium, so you might decide to use less `Calphos` and add some `AgLime`.
+I'd recommend zeroing out the yellow values in column `C` which are part of the
+example that comes with the spreadsheet, but will almost certainly not be useful
+for you. Be careful not to touch the white values, such as for `Borax` (`C39`)
+as those only have one option so the spreadsheet can give you exactly what you
+need for that ingredient. After clearing out the values you can look at what you
+need up on row `13` (`Total Left To Apply`) and find an ingredient you want to
+try to use to address that deficiency, and start plugging in numbers for that
+ingredient. As an example, let's say you see you need Calcium in cell `I13` you
+might decide to use some `Calphos` from Row `31` to address that. Try setting
+cell `C31` to `100`. Was that enough? If not, maybe try `200`, if it was too
+much maybe back off to `75`. `Calphos` also brings with it Phosphorus, so at
+some point you might end up with too much Phosphorus, but not enough Calcium, so
+you might decide to use less `Calphos` and add some `AgLime`.
 
-This process is probably more of an art then a science. I don't have any concrete recommendations except to just keep playing with the ingredients until you think you've gotten good enough. It doesn't have to be perfect, but the better job you do at getting each element close to the target will probably produce better end results.
+This process is probably more of an art then a science. I don't have any
+concrete recommendations except to just keep playing with the ingredients until
+you think you've gotten good enough. It doesn't have to be perfect, but the
+better job you do at getting each element close to the target will probably
+produce better end results.
 
-Row `50`: `Azomite` doesn't target any elements. Steve (as well as the company producing Azomite) suggest that you target a specific amount each year regardless of your soil type. If you're using `Azomite` just enter the number you'd like to use. 
+Row `50`: `Azomite` doesn't target any elements. Steve (as well as the company
+producing Azomite) suggest that you target a specific amount each year
+regardless of your soil type. If you're using `Azomite` just enter the number
+you'd like to use.
 
 ## Printing the ingredient list
 
-Once you've decided on your mix, it's helpful to print it out so you have a hard copy where-ever you're mixing your ingredients at. The ingredient list should fit on a single page. To do this with Open Office/Libre Office highlight the ingredient rows:
+Once you've decided on your mix, it's helpful to print it out so you have a hard
+copy where-ever you're mixing your ingredients at. The ingredient list should
+fit on a single page. To do this with Open Office/Libre Office highlight the
+ingredient rows:
 
 ![image](https://user-images.githubusercontent.com/59991595/128975844-04c2ed28-d508-471c-8a19-a0104eb7465e.png)
 
