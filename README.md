@@ -9,6 +9,10 @@ to balance everything out makes the process somewhat easier.
 The spreadsheet is in OpenOffice/LibreOffice Calc format. OpenOffice and
 LibreOffice are free downloads.
 
+## Download the Spreadsheet
+
+[Download the spreadsheet](https://github.com/electrum47/intelligent-gardener-worksheet/raw/master/intelligent-gardener-worksheet.ods)
+
 ## About the Spreadsheet
 
 ### Colors
