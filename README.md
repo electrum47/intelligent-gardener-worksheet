@@ -6,8 +6,16 @@ However, dialing in which ingredients to use with paper can be tedious, so
 having it in a spreadsheet form where you can quickly tweak the numbers to try
 to balance everything out makes the process somewhat easier.
 
+This single spreadsheet is designed to cover all three worksheets that Steve
+Solomon has, so you can use this single sheet regardless of which PH your soil
+is.
+
 The spreadsheet is in OpenOffice/LibreOffice Calc format. OpenOffice and
 LibreOffice are free downloads.
+
+Warning: at the moment this spreadsheet has only been used by a single person
+for a couple soil samples. It may contain bugs and typos. You're encouraged
+to double check the results that it produces.
 
 ## Download the Spreadsheet
 
